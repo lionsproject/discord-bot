@@ -10,6 +10,11 @@ o run this bot, you will need to install the following extensions and dependenci
   npm install discord.js
   ```
 
+- `commandkit` - a library for easier registering commands by [UnderCtrl](https://github.com/underctrl-io/commandkit)!
+  ```bash
+  npm install commandkit
+  ```
+
 - `dotenv` - dotenv for managing environment variables
   ```bash
   npm install dotenv
