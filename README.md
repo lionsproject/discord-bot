@@ -1,2 +1,2 @@
-# discord-bot
+# 🦁 Discord bot
 🦁 Discord bot for your project
