@@ -1,0 +1,18 @@
+{
+  "name": "lsp-discord-bot",
+  "version": "RELEASE 1.0",
+  "description": "🦁 Discord bot for your project",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node .",
+    "lint": "eslint build/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
