@@ -1,7 +1,7 @@
 {
   "name": "lsp-discord-bot",
   "version": "RELEASE 1.0",
-  "description": "🦁 Discord bot for your project",
+  "description": "🦁 Discord bot for your lion project",
   "main": "build/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
