@@ -7,8 +7,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node .",
-    "lint": "eslint dist/** --ext .js",
-    "lintfix": "eslint dist/** --fix --ext .js"
+    "lint": "eslint dist/** --ext",
+    "lintfix": "eslint dist/** --fix"
   },
   "keywords": [],
   "author": "",
