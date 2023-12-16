@@ -2,13 +2,13 @@
   "name": "lsp-discord-bot",
   "version": "RELEASE 1.0",
   "description": "🦁 Discord bot for your lion project",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node .",
-    "lint": "eslint build/**",
-    "lintfix": "eslint build/** --fix"
+    "lint": "eslint dist/** --ext .js",
+    "lintfix": "eslint dist/** --fix --ext .js"
   },
   "keywords": [],
   "author": "",
