@@ -6,8 +6,9 @@ export default function (
   client: Client<true>,
   handler: CommandKit
 ) {
+  console.log("🦁 LionBot initializing all files...")
   console.log("🦁 LionBot loading all files...");
-  console.log("🦁 LionBot is ready!");
+  console.log("🦁 LionBot is online!");
   client.user.setActivity("🦁 Lion's Project™", {
     type: ActivityType.Watching,
   });

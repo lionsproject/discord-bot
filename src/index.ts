@@ -30,12 +30,10 @@ new CommandKit({
 });
 (async () => {
   try {
-    mongoose.set("strictQuery", false);
-    await mongoose.connect(process.env.MONGODB);
-    console.log(`🦁 LionBot - ${version}`);
-    console.log("🌿 Connected to Database.");
+    console.log(`🦁 LionBot - ${version}, by Mrlion`);
     await client.login(process.env.TOKEN);
   } catch (error) {
     await console.error("❗ Error just occured", error);
+    client.destroy()
   }
 })();
