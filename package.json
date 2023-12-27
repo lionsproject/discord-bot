@@ -1,27 +1,16 @@
 {
   "name": "lionsproject-discord-bot",
   "version": "RELEASE 1.0",
-  "description": "🦁 A Discord for your community server!",
-  "main": "dist/src/index.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node .",
-    "lint": "eslint dist/** --ext",
-    "lintfix": "eslint dist/** --fix"
+    "start": "node ."
   },
   "keywords": [],
   "author": "Mrlion",
   "license": "Apache-2.0",
-  "repository": "https://github.com/lionsproject/discord-bot",
   "dependencies": {
-    "commandkit": "^0.1.9",
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.4",
-    "eslint": "^8.56.0",
-    "tsc": "^2.0.4"
   }
 }
