@@ -2,7 +2,7 @@
   "name": "lionsproject-discord-bot",
   "version": "RELEASE 1.0",
   "description": "🦁 A Discord for your community server!",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",

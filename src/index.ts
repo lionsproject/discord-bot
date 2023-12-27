@@ -4,7 +4,6 @@ import { CommandKit } from "commandkit";
 import * as path from "path";
 import { mrlion_id } from "../config.json";
 import { version } from "../package.json";
-const mongoose = require("mongoose");
 
 const client = new Client({
   intents: [
