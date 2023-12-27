@@ -1,7 +1,7 @@
 {
-  "name": "lsp-discord-bot",
+  "name": "lionsproject-discord-bot",
   "version": "RELEASE 1.0",
-  "description": "🦁 Discord bot for your lion project",
+  "description": "🦁 A Discord for your community server!",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -11,8 +11,9 @@
     "lintfix": "eslint dist/** --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mrlion",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/lionsproject/discord-bot",
   "dependencies": {
     "commandkit": "^0.1.9",
     "discord.js": "^14.14.1",

@@ -1,6 +1,7 @@
 # 🦁 Lion's Project™ - Discord bot
 
 This Discord bot is for you community Discord server. Project was firstly made for fun to make a Discord bot, but we are now using this bot as utility bot for you community Discord server!
+
 ## 📋 Extensions & Dependencies
 
 o run this bot, you will need to install the following extensions and dependencies:
