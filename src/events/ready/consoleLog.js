@@ -1,3 +1,4 @@
 module.exports = (client) => {
-  console.log(`${client.user.tag} is online.`);
+  console.log("🦁 LionBot is starting...")
+  console.log(`🦁 LionBot is online.`);
 };

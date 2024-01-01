@@ -21,7 +21,7 @@ module.exports = async (client) => {
       if (existingCommand) {
         if (localCommand.deleted) {
           await applicationCommands.delete(existingCommand.id);
-          console.log(`🗑 Deleted command "${name}".`);
+          console.log(`🧹 Deleted command "${name}".`);
           continue;
         }
 
@@ -51,6 +51,6 @@ module.exports = async (client) => {
       }
     }
   } catch (error) {
-    console.log(`TThere was an error: ${error}`);
+    console.log(`❗ There was an error: ${error}`);
   }
 };
