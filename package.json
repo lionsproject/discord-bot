@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "lint": "eslint --ext .js src/**",
+    "lintfix": "eslint --ext .js src/** --fix-dry-run"
   },
   "keywords": [],
   "author": "Mrlion",
