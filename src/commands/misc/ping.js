@@ -3,6 +3,6 @@ module.exports = {
   description: '🏓 Pong!',
 
   callback: (client, interaction) => {
-    interaction.reply(`Pong! ${client.ws.ping}ms`);
+    interaction.reply(`🏓  Pong! ${client.ws.ping}ms`);
   },
 };
